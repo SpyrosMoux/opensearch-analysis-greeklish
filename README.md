@@ -26,7 +26,7 @@ In order to install the latest version of the plugin run:
 
     sudo bin/opensearch-plugin install gr.spyrosmoux:opensearch-analysis-greeklish:2.8.0.1
 
-To remove a plugin (5.x.x/7.x.x):
+To remove a plugin (2.x.x):
 
     sudo bin/opensearch-plugin remove <plugin_name>
 

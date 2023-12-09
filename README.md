@@ -1,4 +1,4 @@
-Greeklish Token Filter for ElasticSearch
+Greeklish Token Filter for OpenSearch
 ========================================
 
 The Greeklish plugin generates tokens with latin characters from greek tokens.
@@ -11,44 +11,36 @@ A detailed example of how to use this plugin you can be found
 Versions
 ------------
 
-Greeklish Plugin | ElasticSearch | Branch |
+Greeklish Plugin | OpenSearch    | Branch |
 -----------------|---------------|--------|
-7.7.0.2          | 7.7.0         | 7.7.0  |
-7.7.0.1          | 7.7.0         | 7.7.0  |
-5.4.2.1          | 5.4.2         | 5.4.2  |
-5.4.0.1          | 5.4.0         | 5.4.0  |
-2.4.4.1          | 2.4.4         | 2.4.4  |
-0.11             | 1.5.0         | 1.5.0  |
-0.10             | 0.90.2 	 |   -    |
-0.9              | 0.90.0	 |   -    |
-0.8              | 0.19.3	 |   -    |
+2.8.0.1          | 2.8.0         | 2.8.0  |
 
 Installation
 -------------
 
 To list all plugins in current installation:
 
-    sudo bin/elasticsearch-plugin list
+    sudo bin/opensearch-plugin list
 
 In order to install the latest version of the plugin run:
 
-    sudo bin/elasticsearch-plugin install gr.skroutz:elasticsearch-analysis-greeklish:7.7.0.1
+    sudo bin/opensearch-plugin install gr.spyrosmoux:opensearch-analysis-greeklish:7.7.0.1
 
 In order to install version 5.4.2 of the plugin run:
 
-    sudo bin/elasticsearch-plugin install gr.skroutz:elasticsearch-analysis-greeklish:5.4.2.1
+    sudo bin/opensearch-plugin install gr.spyrosmoux:opensearch-analysis-greeklish:5.4.2.1
 
 In order to install version 2.4.4 of the plugin, simply run:
 
-    sudo bin/plugin install gr.skroutz/elasticsearch-analysis-greeklish/2.4.4.1
+    sudo bin/plugin install gr.spyrosmoux/opensearch-analysis-greeklish/2.4.4.1
 
 In order to install the plugin for versions prior to 1.5.x, run:
 
-    sudo bin/plugin -install gr.skroutz/elasticsearch-analysis-greeklish/0.10
+    sudo bin/plugin -install gr.spyrosmoux/opensearch-analysis-greeklish/0.10
 
 To remove a plugin (5.x.x/7.x.x):
 
-    sudo bin/elasticsearch-plugin remove <plugin_name>
+    sudo bin/opensearch-plugin remove <plugin_name>
 
 Expansions
 ----------
@@ -60,7 +52,7 @@ greek character of a token and in some cases this produces an enormous number
 of expansions. In order to prevent this from happening, a threshold of the max
 expansions is set.  The default value is 20.
 
-However, a threshold of the max expansions can be set in the elasticsearch.yml
+However, a threshold of the max expansions can be set in the opensearch.yml
 When this threshold is reached the remaining characters are substitute with
 the most common variant of the greek character.
 
@@ -89,7 +81,7 @@ diffent forms of a greek word based on some grammar rules, and the second
 phase produces the greeklish version of each of theses greek words.
 
 This functionality is enabled by default. But, it can be disabled by setting
-greek\_variants variable in the elasticsearch configuration file.
+greek\_variants variable in the opensearch configuration file.
 
 Example usage:
 

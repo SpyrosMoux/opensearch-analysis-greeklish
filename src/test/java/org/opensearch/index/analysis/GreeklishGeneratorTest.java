@@ -1,7 +1,8 @@
-package org.elasticsearch.index.analysis;
+package org.opensearch.index.analysis;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeClass;

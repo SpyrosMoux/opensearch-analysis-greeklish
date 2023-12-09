@@ -1,11 +1,11 @@
-package org.elasticsearch.plugin.analysis.greeklish;
+package org.opensearch.plugin.analysis.greeklish;
 
-import org.elasticsearch.indices.analysis.AnalysisModule.AnalysisProvider;
-import org.elasticsearch.index.analysis.TokenFilterFactory;
-import org.elasticsearch.plugins.AnalysisPlugin;
-import org.elasticsearch.plugins.Plugin;
+import org.opensearch.indices.analysis.AnalysisModule.AnalysisProvider;
+import org.opensearch.index.analysis.TokenFilterFactory;
+import org.opensearch.plugins.AnalysisPlugin;
+import org.opensearch.plugins.Plugin;
 
-import org.elasticsearch.index.analysis.GreeklishTokenFilterFactory;
+import org.opensearch.index.analysis.GreeklishTokenFilterFactory;
 
 import java.util.Map;
 

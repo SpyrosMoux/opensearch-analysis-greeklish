@@ -1,11 +1,11 @@
-package org.elasticsearch.index.analysis;
+package org.opensearch.index.analysis;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.Logger;
-import org.elasticsearch.common.logging.Loggers;
+import org.opensearch.common.logging.Loggers;
 
 
 /**
@@ -19,7 +19,7 @@ import org.elasticsearch.common.logging.Loggers;
  */
 public class GreeklishConverter {
 	/**
-	 * Elastic Search logger
+	 * Open Search logger
 	 */
     private static final Logger logger =
 			Loggers.getLogger(GreeklishConverter.class,

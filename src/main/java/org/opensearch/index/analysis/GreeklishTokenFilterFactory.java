@@ -1,12 +1,13 @@
-package org.elasticsearch.index.analysis;
+package org.opensearch.index.analysis;
 
 import org.apache.lucene.analysis.TokenStream;
-import org.elasticsearch.common.inject.Inject;
-import org.elasticsearch.common.inject.assistedinject.Assisted;
-import org.elasticsearch.common.settings.Settings;
+import org.opensearch.common.inject.Inject;
+import org.opensearch.common.inject.assistedinject.Assisted;
+import org.opensearch.common.settings.Settings;
 
-import org.elasticsearch.env.Environment;
-import org.elasticsearch.index.IndexSettings;
+import org.opensearch.env.Environment;
+import org.opensearch.index.IndexSettings;
+import org.opensearch.index.analysis.AbstractTokenFilterFactory;
 
 public class GreeklishTokenFilterFactory  extends AbstractTokenFilterFactory {
 	private final int maxExpansions;

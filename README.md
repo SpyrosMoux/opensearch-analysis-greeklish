@@ -24,19 +24,7 @@ To list all plugins in current installation:
 
 In order to install the latest version of the plugin run:
 
-    sudo bin/opensearch-plugin install gr.spyrosmoux:opensearch-analysis-greeklish:7.7.0.1
-
-In order to install version 5.4.2 of the plugin run:
-
-    sudo bin/opensearch-plugin install gr.spyrosmoux:opensearch-analysis-greeklish:5.4.2.1
-
-In order to install version 2.4.4 of the plugin, simply run:
-
-    sudo bin/plugin install gr.spyrosmoux/opensearch-analysis-greeklish/2.4.4.1
-
-In order to install the plugin for versions prior to 1.5.x, run:
-
-    sudo bin/plugin -install gr.spyrosmoux/opensearch-analysis-greeklish/0.10
+    sudo bin/opensearch-plugin install gr.spyrosmoux:opensearch-analysis-greeklish:2.8.0.1
 
 To remove a plugin (5.x.x/7.x.x):
 

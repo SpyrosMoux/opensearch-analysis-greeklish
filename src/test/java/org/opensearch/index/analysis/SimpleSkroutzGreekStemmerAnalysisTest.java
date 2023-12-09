@@ -1,7 +1,7 @@
 package org.opensearch.index.analysis;
 
 import org.opensearch.common.settings.Settings;
-import org.opensearch.index.Index;
+import org.opensearch.core.index.Index;
 import org.opensearch.plugin.analysis.greeklish.GreeklishPlugin;
 import org.opensearch.test.OpenSearchTestCase;
 import org.testng.annotations.Test;

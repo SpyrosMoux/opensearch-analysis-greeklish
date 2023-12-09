@@ -11,9 +11,10 @@ A detailed example of how to use this plugin you can be found
 Versions
 ------------
 
-Greeklish Plugin | OpenSearch    | Branch |
------------------|---------------|--------|
-2.8.0.1          | 2.8.0         | 2.8.0  |
+Greeklish Plugin | OpenSearch | Branch |
+-----------------|------------|--------|
+2.11.0.1          | 2.11.0     | 2.11.0 |
+2.8.0.1          | 2.8.0      | 2.8.0  |
 
 Installation
 -------------

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <name>opensearh-analysis-greeklish</name>
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.spyrosmoux</groupId>
   <artifactId>opensearch-analysis-greeklish</artifactId>
-  <version>2.8.0.1-SNAPSHOT</version>
+  <version>2.8.0.1</version>
   <packaging>jar</packaging>
   <description>Greeklish converter for OpenSearch</description>
   <inceptionYear>2023</inceptionYear>
@@ -63,6 +62,7 @@
     <connection>scm:git:git@github.com:spyrosmoux/opensearch-analysis-greeklish.git</connection>
     <developerConnection>scm:git:git@github.com:spyrosmoux/opensearch-analysis-greeklish.git</developerConnection>
     <url>https://github.com/spyrosmoux/opensearch-analysis-greeklish</url>
+    <tag>2.8.0.1</tag>
   </scm>
 
   <distributionManagement>
